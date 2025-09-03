@@ -70,12 +70,9 @@ class TrajTrail:
             # NOTE: only using "lookup_transform", you might see a lot of errors in
             # your terminal!
             #       Unlike other topic types - which are typically received on a
-            # callback basis -
-            #       tf can be polled at any time and therefore "lookup_transform"
-            # might fail
-            #       due to timing issues. To fix it, consider the method
-            # "can_transform" with
-            #       a small wait time.
+            #       callback basis, tf can be polled at any time and therefore "lookup_transform"
+            #       might fail due to timing issues. To fix it, consider the method
+            #       "can_transform" with a small wait time.
             
             # TODO: fill in here
 
