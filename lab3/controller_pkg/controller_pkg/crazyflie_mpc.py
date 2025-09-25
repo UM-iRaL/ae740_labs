@@ -50,7 +50,7 @@ class CrazyflieMPC(rclpy.node.Node):
 
         self.flight_mode = 'idle'
         self.trajectory_t0 = self.get_clock().now()
-        self.trajectory_type = 'lemniscate'
+        self.trajectory_type = 'horizontal_circle'
         self.plot_trajectory = True
         
         self.motors = Motors.MOTOR_CLASSIC # MOTOR_CLASSIC, MOTOR_UPGRADE
