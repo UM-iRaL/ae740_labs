@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'crazyflie_mpc_controller = controller_pkg.crazyflie_mpc:main',
+            'crazyflie_geometric_controller = controller_pkg.crazyflie_geometric_controller:main',
         ],
     },
 )
